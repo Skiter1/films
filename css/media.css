@@ -1,0 +1,207 @@
+@media(max-width: 1170px){
+    .two .box1{
+        width: 425px;
+        height: 295px;
+    }
+    .two .box2{
+        width: 185px;
+        height: 128px;
+    }
+    .two .box3{
+        width: 185px;
+        height: 128px;
+    }
+    .two .box4{
+        width: 185px;
+        height: 128px;
+    }
+    .two .box5{
+        width: 185px;
+        height: 128px;
+    }
+}
+
+@media(max-width: 935px){
+    .series .big .text p{
+        margin-top: 23px;
+        margin-bottom: 32px;
+    }
+}
+
+@media(max-width: 900px){
+    .films-block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .films-block .box{
+        max-width: 433px;
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 860px){
+    .two .container .grid{
+        width: 100%;
+        display: grid;
+        gap: 30px;
+        grid-template-areas:
+        "box1 box1" 
+        "box1 box1" 
+        "box2 box3"
+        "box4 box5"
+    }
+    
+    .two .box1{
+        margin: auto;
+        width: 650px;
+    }
+    .two .box2{
+        width: 250px;
+        height: 150px;
+        margin: auto;
+    }
+    .two .box3{
+        width: 250px;
+        height: 150px;
+        margin: auto;
+    }
+    .two .box4{
+        width: 250px;
+        height: 150px;
+        margin: auto;
+    }
+    .two .box5{
+        width: 250px;
+        height: 150px;
+        margin: auto;
+    }
+}
+
+@media(max-width: 780px){
+    .series .big .text a{
+        margin-bottom: 5px;
+    }
+}
+
+@media(max-width: 750px){
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+    .series .big{
+        height: 500px;
+    }
+    
+}
+
+@media(max-width: 650px){
+    .two .box1{
+        margin: auto;
+        width: 550px;
+    }
+}
+
+@media(max-width: 580px){
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    header .menu nav ul li a{
+        padding: 15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0;
+    }
+    
+    header .poster i{
+        font-size: 30px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        margin-left: 10px;
+        width: 106px;
+    }
+    
+    header .text h1{
+        font-size: 41px;
+        margin-bottom: 17px;
+    }
+    
+    header .text p{
+        font-size: 15px;
+    }
+    
+    header .text .btn{
+        flex-direction: column;
+    }
+    
+    header .text .btn a{
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media(max-width: 550px){
+    .two .box1{
+        margin: auto;
+        width: 450px;
+    }
+    .two .box2{
+        margin: auto;
+        width: 200px;
+        height: 140px;
+    }
+    .two .box3{
+        margin: auto;
+        width: 200px;
+        height: 140px;
+    }
+    .two .box4{
+        margin: auto;
+        width: 200px;
+        height: 140px;
+    }
+    .two .box5{
+        margin: auto;
+        width: 200px;
+        height: 140px;
+    }
+}
+
+@media(max-width: 480px){
+    .films-block{
+        grid-template-columns: 1fr;
+    }
+    
+    .films-block .box{
+        max-width: none;
+    }
+    
+    .two .box1{
+        margin: auto;
+        width: 350px;
+        height: 200px;
+    }
+    .two .box2{
+        margin: auto;
+        width: 150px;
+        height: 100px;
+    }
+    .two .box3{
+        margin: auto;
+        width: 150px;
+        height: 100px;
+    }
+    .two .box4{
+        margin: auto;
+        width: 150px;
+        height: 100px;
+    }
+    .two .box5{
+        margin: auto;
+        width: 150px;
+        height: 100px;
+    }
+}
